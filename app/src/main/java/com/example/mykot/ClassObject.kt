@@ -1,12 +1,12 @@
 package com.example.mykot
 
 fun main() {
-    val myName = MyClass()
+    val myName = ClassObjectTest()
     myName.name = "Vikash Kumar"
     println("My Name is : ${myName.name}")
 }
 
 
-class MyClass {
+class ClassObjectTest {
     var name: String = " "
 }
