@@ -11,7 +11,7 @@ fun main() {
 
     println()
 
-    //RangeTo method same like .. there is no difference at all
+    //RangeTo method same like ..(1..5) there is no difference at all
     for (myValue in 1.rangeTo(5)) {
         print("$myValue \t")
     }
