@@ -17,6 +17,7 @@ fun main() {
     var num = try {
         str.toInt()
     } catch (e: NumberFormatException) {
+      //  println(e.printStackTrace())
         println("Exception NumberFormatException")
     }
     println(num)
